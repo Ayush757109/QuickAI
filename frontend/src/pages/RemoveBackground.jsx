@@ -7,7 +7,7 @@ import Markdown from 'react-markdown'
 
 axios.defaults.baseURL = import.meta.env.VITE_BASE_URL
 
-const Removebackground = () => {
+const RemoveBackground = () => {
   const [input, setInput] = useState(null)
   const [loading, setLoading] = useState(false)
   const [content, setContent] = useState('')
@@ -114,4 +114,4 @@ const Removebackground = () => {
   )
 }
 
-export default Removebackground
+export default RemoveBackground
